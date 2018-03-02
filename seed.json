@@ -1,0 +1,5 @@
+{
+  "undefined": "localhost/oauth",
+  "dev": "localhost/oauth",
+  "prod": "localhost/oauth"
+}

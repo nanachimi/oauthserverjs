@@ -1,0 +1,107 @@
+[
+  {
+    "_id": "5a9988e2789b3a1a1f6fd234",
+    "clientId": "2e36038a-2928-4ac1-a1ee-524fb7cf4932",
+    "clientSecret": "d80de1ad-f7d8-474d-b4c3-552e9b50dea7",
+    "redirectUris": ["http://client1.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e2aa660e070dd89f34",
+    "clientId": "abdde2b7-86d9-4e33-95f8-fd3b773bb9e7",
+    "clientSecret": "0a3ccf61-5f02-4cf0-aacc-034d0e08a67c",
+    "redirectUris": ["http://client2.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e28029e752584d1c58",
+    "clientId": "313ad3f9-8d93-4cf2-9d4f-597b59e7118e",
+    "clientSecret": "bd6d4502-120f-4b99-b0e1-bc2b1c6d5fb9",
+    "redirectUris": ["http://client3.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e265dffd83d2ff319a",
+    "clientId": "a0a8416f-a0c8-43b8-aa4b-0f1a59dab2f0",
+    "clientSecret": "b6811baa-36df-45f9-a928-3277d6d3fb74",
+    "redirectUris": ["http://client4.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e243ea1e2b03073564",
+    "clientId": "3a760c3c-701a-4651-80f7-d8eb188c9fe9",
+    "clientSecret": "e85173b2-3de3-445c-b51a-9ca47d51062f",
+    "redirectUris": ["http://client5.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e26eeabdb34a61841a",
+    "clientId": "1315dff6-5163-48c8-a773-bd3f3b247f13",
+    "clientSecret": "41e4dbb6-a74f-48b5-bc04-d5dd6668647e",
+    "redirectUris": ["http://client6.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e299d5a6b9493c1616",
+    "clientId": "3cd72d29-02d2-494f-bdf2-ee57388275e0",
+    "clientSecret": "3d6a8fc9-b99b-4857-8904-25fbf1ce3fda",
+    "redirectUris": ["http://client7.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e21f8277a13f37407c",
+    "clientId": "fb4c29b9-ef35-46f1-8119-af872e6e502a",
+    "clientSecret": "90c5f326-d81d-48a4-87c4-e7f46c75bd53",
+    "redirectUris": ["http://client8.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e228f3dc6367569118",
+    "clientId": "08499f01-c7a1-4487-b0bc-5970448eabcd",
+    "clientSecret": "34571a13-b92a-410d-8017-0279a9b66b16",
+    "redirectUris": ["http://client9.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e285229f9dc1eafe68",
+    "clientId": "0713df50-149d-4256-ac66-3a772c4147de",
+    "clientSecret": "82e3c735-39a5-4976-8e67-e3e7e91ae27d",
+    "redirectUris": ["http://client10.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e2e457411648ff4d45",
+    "clientId": "2adf8f74-4a9e-4c57-93b2-10f0fe4db679",
+    "clientSecret": "3ff42ea9-3cfc-40e0-8af3-8709cadcf1b2",
+    "redirectUris": ["http://client11.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e22f18d3a6c729f592",
+    "clientId": "50db54ac-f44b-4ade-b383-8db881a5b184",
+    "clientSecret": "49a5bfd8-f75e-4e60-9f21-c56739991ed2",
+    "redirectUris": ["http://client12.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e242de696ee82c001b",
+    "clientId": "e16bc637-2797-4b8f-b3d3-50cc6de60491",
+    "clientSecret": "969d64a4-2655-4274-8dee-a9d4ff985f93",
+    "redirectUris": ["http://client13.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e25d05f6381d297bcc",
+    "clientId": "c55bb629-1247-4b11-b3a7-6f6f14cb82c0",
+    "clientSecret": "0fcf8e12-54c4-460a-bae6-1dd7e82dda68",
+    "redirectUris": ["http://client14.redirect"],
+    "grants": ["password", "implizit"]
+  },
+  {
+    "_id": "5a9988e234febc76ab92762a",
+    "clientId": "c909d4a0-40c3-4924-bdd4-b04cecc71325",
+    "clientSecret": "914b2b2f-3393-46fd-ba9d-1dccede9204f",
+    "redirectUris": ["http://client15.redirect"],
+    "grants": ["password", "implizit"]
+  }
+]

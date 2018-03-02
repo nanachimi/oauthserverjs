@@ -1,0 +1,49 @@
+{
+  "name": "oauthserverjs",
+  "version": "0.1.0",
+  "description": "A demo for a library express-oauth-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "seed": "./node_modules/node-mongo-seeds/bin/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.kumity.com:payers/authentication-microservice.git"
+  },
+  "keywords": [
+    "registration",
+    "signup",
+    "signin",
+    "login",
+    "oauth",
+    "oauth2",
+    "password",
+    "microservice"
+  ],
+  "author": "Achille Nana Chimi",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-oauth-server": "^2.0.0",
+    "mongoose": "^4.13.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "node-mongo-seeds": "^2.3.2",
+    "prettier": "^1.11.0"
+  }
+}
