@@ -48,7 +48,7 @@ Note: `client_id` and `client_secret` are optional fields. They can be autogener
 
 ### Password Grant
 
-Enspoint: `POST /oauth/token`
+Endpoint: `POST /oauth/token`
 
 
 Note: Content-Type of a request must have a value `application/x-www-form-urlencoded`. In a body of a request `grant_type`, `username`, `password`, `client_id` and `client_secret` must be set with existing value. A valid `username` and `password` for now are respectively `testuser` and  `secret`. The rest of value must be retrieve from a previous request.
