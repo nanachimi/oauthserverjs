@@ -1,35 +1,37 @@
 {
   "name": "oauthserverjs",
   "version": "0.1.0",
-  "description": "A demo for a library express-oauth-server",
-  "main": "index.js",
+  "description": "A service for issuing tokens according to The OAuth 2.0 Authorization Framework",
+  "main": "server.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "seed": "./node_modules/node-mongo-seeds/bin/seed"
+    "tests": "mocha tests",
+    "start": "babel-node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.kumity.com:payers/authentication-microservice.git"
+    "url": "git@github.com:nanachimi/oauthserverjs.git"
   },
   "keywords": [
-    "registration",
-    "signup",
-    "signin",
-    "login",
     "oauth",
     "oauth2",
-    "password",
-    "microservice"
+    "grant",
+    "token",
+    "jwt",
+    "authorization"
   ],
-  "author": "Achille Nana Chimi",
-  "license": "MIT",
+  "author": "Achille Nana Chimi <me@nanachimi.com>",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
+    "axios": "^0.18.0",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-oauth-server": "^2.0.0",
-    "mongoose": "^4.13.9"
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.5",
+    "mongoose": "^5.0.12",
+    "uuid": "^3.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -43,7 +45,6 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
-    "node-mongo-seeds": "^2.3.2",
     "prettier": "^1.11.0"
   }
 }

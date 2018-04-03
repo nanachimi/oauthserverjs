@@ -1,37 +1,46 @@
 # OAuthServerJS
 
-An OAuth2 compliant authorization server with expressjs
+An OAuth2 compliant authorization server with expressjs. This project is built on the implementation of [manjeshpv](https://github.com/manjeshpv/node-oauth2-server-implementation].
 
-## Before you start
+## Prerequisites
 
 Make sure MongoDB is install on your local machine before you continue.
 
-## Dependencies Installation
 
-To install dependencies:
+## Get started
+
+Install dependencies:
 
 ```shell
 yarn
 ```
 
-or
+
+Start OAuth server:
 
 ```shell
-npm install
+yarn start
 ```
 
-## Initialize MongoDB
 
-To populate some clients and users in a database run:
 
-```shell
-yarn seed
+## Client Registration
+
+POST /oauth/client
+
 ```
-
-or
-
-```shell
-npm run seed
+{
+   "
+   "client_id": "unique id",
+   "client_secret": "unique id",
+   "redirect_uri":"http://site.com/callback",
+   "grants":[
+      "password", "implicit"
+   ],
+   "app_name":"My App",
+   "website":"http://site.com",
+   "description":"Description of app"
+}
 ```
 
 ## Generate Access Token
@@ -39,3 +48,6 @@ npm run seed
 ### Password Grant
 
 POST /oauth/token
+
+
+Note: Content-Type of a request must have a value `application/x-www-form-urlencoded`. In a body of a request `grant_type`, `username`, `password`, `client_id` and `client_secret` must be set with correct value. A valid and hardcoded `username` and `password` for now are respectively `testuser` and  `secret`. The rest of value must be retrieve from a previous request.
