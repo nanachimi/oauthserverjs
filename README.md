@@ -1,6 +1,6 @@
 # OAuthServerJS
 
-An OAuth2 compliant authorization server with expressjs. This project is built on the implementation of [manjeshpv](https://github.com/manjeshpv/node-oauth2-server-implementation].
+An OAuth2 compliant authorization server with expressjs. This project is built on the implementation of [manjeshpv](https://github.com/manjeshpv/node-oauth2-server-implementation).
 
 ## Prerequisites
 
